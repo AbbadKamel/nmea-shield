@@ -1,0 +1,24 @@
+# Full raw capture -- NEAC Industry proprietary, not redistributed
+NMEA2000/
+Frame*.txt
+data/raw/
+data/decoded_frames.csv
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model artefacts / large outputs
+*.h5
+*.keras
+*.npy
+*.pkl
+
+# LaTeX / paper sources
+*.aux
+*.log
+*.out
+*.synctex.gz
